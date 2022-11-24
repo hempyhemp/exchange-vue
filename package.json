@@ -1,11 +1,13 @@
 {
   "name": "exchange-vue",
+  "homepage": "https://hempyhemp.github.io/exchange-vue/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --port 4173",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "vue": "^3.2.38",
@@ -17,6 +19,7 @@
     "@vue/eslint-config-prettier": "^7.0.0",
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.3.0",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.3",
     "prettier": "^2.7.1",
     "sass": "^1.55.0",

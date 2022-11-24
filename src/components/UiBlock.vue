@@ -65,7 +65,7 @@ export default {
       );
     },
     imgPath() {
-      return "/" + this.pcurrency + ".png";
+      return `${import.meta.env.BASE_URL}/${this.pcurrency}.png`;
     },
   },
   methods: {
